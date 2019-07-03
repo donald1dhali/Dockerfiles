@@ -21,5 +21,5 @@ RUN pip3 install pywinrm kerberos requests_kerberos botocore boto3 pyodbc ansibl
 
 
 RUN apt-get install -y git
-RUN git clone -b devel --single-branch https://github.com/dell/dellemc-openmanage-ansible-modules.git
+RUN git clone https://github.com/dell/dellemc-openmanage-ansible-modules
 RUN cd dellemc-openmanage-ansible-modules/ && python3 ./install.py
