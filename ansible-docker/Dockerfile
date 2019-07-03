@@ -17,7 +17,7 @@ RUN apt-get -y install g++
 RUN apt-get -y install vim
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python3 get-pip.py
-RUN pip3 install pywinrm kerberos requests_kerberos botocore boto3 pyodbc ansible
+RUN pip3 install pywinrm kerberos requests_kerberos botocore boto3 pyodbc ansible omsdk
 
 
 RUN apt-get install -y git
